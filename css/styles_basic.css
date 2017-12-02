@@ -1,8 +1,4 @@
-.social-link {
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    text-decoration: none;
-}
+
 /*Header and cover*/
 header {
     height: 50vh;
@@ -86,6 +82,9 @@ div.activated_link {
 
 
 .main_footer {
+    background-image: url(../back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(180, 180, 180);
     border-top-style: solid;
     border-top-width: 1px;
@@ -94,4 +93,17 @@ div.activated_link {
     /* NOT WORKING YET, to keep footer at the bottomm but it could overlap the content
     position: fixed;
     bottom: 0;*/
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.75);
+}
+.social-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-link:hover {
+    color: rgba(190, 190, 190, 0.75);
 }

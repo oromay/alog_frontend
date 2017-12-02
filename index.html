@@ -22,7 +22,7 @@
 <a class = 'burger d-sm-none' data-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu"> ☰ </a>
 </div>
 <div class="collapse " id="collapseMenu">
-    <ul class="nav justify-content-sm-start justify-content-center flex-column flex-sm-row" style="margin-bottom:20px;">
+    <ul class="nav flex-column flex-sm-row" style="margin-bottom:20px;">
         <li class="nav-item p2"> <a href="#" class="navigation_link nav-link" style=""><b>Alog</b></a> <div class="d-none d-sm-block underline_active"></div></li>
         <li class="nav-item p2"> <a href="#" class="navigation_link nav-link" style=""><b>Competition</b></a>     <div class="d-none d-sm-block underline_active"></div></li>
         <li class="nav-item p2"> <a href="#" class="navigation_link nav-link" style=""><b>Winners</b></a>    <div class="d-none d-sm-block underline_active"></div> </li>
@@ -54,8 +54,9 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </div> <!-- ends main container -->
 
 
-<div class="container-fluid main_footer">
-    <div class="card-deck d-flex flex-column-reverse flex-sm-row">
+<div class="container-fluid px-0 main_footer">
+
+    <div id="footer" class="card-deck d-flex flex-column-reverse flex-sm-row">
       <div class="card border-0 bg-transparent">
         <div class="card-body">
           <p class="card-text">Terms of use</p>
@@ -63,7 +64,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
       </div>
       <div class="card border-0 bg-transparent">
         <div class="card-body">
-          <p class="card-text">&copy; {{year}}</p>
+          <p class="card-text">&copy; 2017</p>
         </div>
       </div>
       <div class="card border-0 bg-transparent">
